@@ -22,10 +22,10 @@ AppModule = __decorate([
             config_1.ConfigModule.forRoot({ isGlobal: true }),
             typeorm_1.TypeOrmModule.forRoot({
                 type: 'postgres',
-                host: 'dpg-ce40bkha6gdkr7rutou0-a.oregon-postgres.render.com',
+                host: 'dpg-ce40bkha6gdkr7rutou0-a',
                 port: parseInt('5432'),
                 username: 'postgres1',
-                password: 'z9BFzV8ZThl6hBUd2ai3I4JCT3V7hPLR',
+                password: 'process.env.DB_PASSWORD',
                 database: 'the_vault',
                 autoLoadEntities: true,
                 ssl: { rejectUnauthorized: false },
