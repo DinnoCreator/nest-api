@@ -10,7 +10,7 @@ import { QrModule } from './qr/qr.module';
     ConfigModule.forRoot({ isGlobal: true }),
     TypeOrmModule.forRoot({
       type: 'postgres',
-      host: 'dpg-ce40bkha6gdkr7rutou0-a.oregon-postgres.render.com',
+      host: 'dpg-ce40bkha6gdkr7rutou0-a',
       port: parseInt(<string>'5432'),
       username: 'postgres1',
       password: process.env.DB_PASSWORD,
