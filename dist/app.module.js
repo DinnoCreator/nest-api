@@ -25,7 +25,7 @@ AppModule = __decorate([
                 host: 'dpg-ce40bkha6gdkr7rutou0-a',
                 port: parseInt('5432'),
                 username: 'postgres1',
-                password: 'process.env.DB_PASSWORD',
+                password: 'z9BFzV8ZThl6hBUd2ai3I4JCT3V7hPLR',
                 database: 'the_vault',
                 autoLoadEntities: true,
                 ssl: { rejectUnauthorized: false },
